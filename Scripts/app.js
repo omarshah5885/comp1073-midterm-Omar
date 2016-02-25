@@ -1,3 +1,5 @@
+// JavaScript File, Umar (Omar) Shah,http://comp1074-midterm-omar.azurewebsites.net/, file contains DOM manipulation of various strings variables
+ 
 // setup your IIFE (Immediately Invoked Function Expression)
 var travelReport = (function () {
 
@@ -6,7 +8,7 @@ var travelReport = (function () {
 
 	// implemented string variables into DOM via Id's
 	
-	// decided to use a named function for the first paragraph 
+	// decided to use a named function to repplace the first paragraph 
 	function replaceParagraph() {
 		console.log("replaceParagraph function activated")
 		var IntroParagraph = document.getElementById("IntroParagraph");
